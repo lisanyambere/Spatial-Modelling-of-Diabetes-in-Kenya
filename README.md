@@ -1,2 +1,9 @@
-# Spatial-Modelling-of-Diabetes-in-Keya
+# Spatial-Modelling-of-Diabetes-in-Kenya
 This is a completed group project that models the prevalence of diabetes cases across Kenya
+For our final year project for a Bachelor of Science in Biostatistics, we decided to model the prevalence of Diabetes in Kenya in space. We also mapped the cases so as to determine geographical patterns  of cases in Kenya and identify hotspots. We employed a poisson generalized linear mixed model(GLMM) to determine the relationship between diabetes and our variables of interest. To find our estimates, we estimated our choosen GLM using a full Bayesian approach and mapped the estimates.
+The data used in this project was obtained from DHS and was the survey data from the National STEPwise survey done in 2015. We could have used data from the 2022 DHS survey but the data was not available to us at the time. Note that the STEPwise survey is done to identify risks for NCDs hence it was more appropriate.
+Since most diabetes cases are also undiagnosed in Kenya, we calculated our cases as those that had a fasting blood sugar level greater than 7.0.
+Our final cleaed dataset had 3920 participants where 10.23% of them were diabetic and 89.73% were not diabetic. Of the diabetic population, 50.9% resided in urban areas while 49.1% resided in rural residences.More females(63.9%) were diabetic considered to males(35.7%).13.7% of obese individuals were diabetic compared to healthy weight range.
+We estimated a prevalence of 1.46%. We also identified Bomet,Uasin Gishu, Embu, Kirinyaga, Nyeri, Nairobi, Muran'ga and Embu counties were identified as diabetes hotspots. Age and weight were identified as significant variables and the odds of having diabetes increase as they increase.
+Our recommendations focused on an early detection strategy coupled up with health education as occurence of NCDs is mostly self reliant.
+This project was an eye opener for us academically but also in our personal lives. Our supervisor was Dr Caroline Mugo at JKUAT, God bless her and us too.
